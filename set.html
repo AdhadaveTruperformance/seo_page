@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Section Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Set a default font for the page */
+        }
+        .my-section {
+            padding: 20px; /* Padding around the section */
+        }
+        .container {
+            display: flex; /* Use flexbox for layout */
+            justify-content: space-between; /* Space between columns */
+            gap: 50px; /* Gap between columns */
+            flex-wrap: wrap; /* Allow wrapping for small screens */
+        }
+        .column {
+            flex: 1; /* Allow columns to grow equally */
+            min-width: 300px; /* Minimum width for responsiveness */
+            padding: 20px; /* Padding inside columns */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+        }
+        .sett {
+            color: #343a40; /* Dark gray color for headings */
+            background-color: red; /* Background color for first column */
+        }
+        .settt {
+            color: #6c757d; /* Medium gray color for paragraph text */
+            background-color: greenyellow; /* Background color for second column */
+        }
+    </style>
+</head>
+<body>
+
+    <section class="my-section">
+        <div class="container">
+            <div class="column sett">
+                <h2>Column 1</h2>
+                <p>This is the first column. You can add any content here.</p>
+            </div>
+            <div class="column settt">
+                <h2>Column 2</h2>
+                <p>This is the second column. You can add any content here as well.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

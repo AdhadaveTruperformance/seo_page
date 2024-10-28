@@ -4,21 +4,7 @@
     margin: 0 auto;
     padding: 0 15px;
 }
-
-/* .seo-row
-{
-    gap: 60px;
-} */
-/* .seo-content-col
-{
-   background-color: #f0f0f0;
-} */
- .seo-image-col
- {
-    height: 100%;
-    width: 596px;
- }
-.seo-image-col img{
+.seo-image img{
     
     height: 596px;
     background-repeat: no-repeat;
@@ -348,7 +334,7 @@ border: 0;
     .seo-row {
         flex-direction: column; /* Stack columns vertically */
     }
-    .seo-image-col img {
+    .seo-image img {
         margin-top: 20px;
         width: 100%;
         height: auto;
