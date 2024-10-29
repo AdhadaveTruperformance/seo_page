@@ -82,7 +82,14 @@
     border: 1px solid #FF9A00;
     background-color: #FFF;
     color: #FF9A00;
+    
 }
+.custom-btn:hover .hover{
+    display: block
+    }
+    .custom-btn:hover .default{
+    display: none
+    }
 
 .arrow-icon {
     display: flex;
