@@ -30,7 +30,7 @@
     color: #000;
     font-feature-settings: 'liga' off, 'clig' off;
     font-family: Montserrat;
-    font-size: 36px;
+    font-size: 34px;
     font-style: normal;
     font-weight: 700;
     line-height: 46px;
@@ -90,6 +90,9 @@
     .custom-btn:hover .default{
     display: none
     }
+    .custom-btn .hover{
+        display: none;
+        }
 
 .arrow-icon {
     display: flex;
@@ -265,7 +268,7 @@ border: 1px solid var(--Deactive-Card-Color, #E4E4E4);
     color: #000;
     font-feature-settings: 'liga' off, 'clig' off;
     font-family: Montserrat;
-    font-size: 36px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 700;
     line-height: 46px; /* 127.778% */
