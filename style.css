@@ -4,13 +4,27 @@
     margin: 0 auto;
     padding: 0 15px;
 }
-.seo-image img{
+.seo-image-col img
+{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 684px; */
+    border-radius: 8px;
+}
+
+/* .seo-content-col
+{
+    max-width: 100%;
+    height: 684px;
+} */
+/* .seo-image img{
     
     height: 596px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-}
+} */
 
 .seo-heading {
     color: #000;
@@ -20,6 +34,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 46px;
+    margin-bottom: 16px;
 }
 
 .seo-description {
@@ -29,6 +44,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 16px;
 }
 
 .seo-list {
@@ -46,9 +62,8 @@
 .custom-btn {
     border: 0;
     border-radius: 40px;
-    border: 1px solid #FF9A00;
-    background-color: #FFF;
-    color: #FF9A00;
+    background-color: #FF9A00;
+    color: var(--Neutral-Colors-White, var(--white-color-aditya, #FFF));
     text-align: center;
     font-feature-settings: 'liga' off, 'clig' off;
     font-family: Poppins;
@@ -59,8 +74,14 @@
     display: flex;
     padding: 24px 36px;
     gap: 8px;
-    margin-top: 20px;
+    margin-top: 28px;
     
+}
+.custom-btn:hover 
+{
+    border: 1px solid #FF9A00;
+    background-color: #FFF;
+    color: #FF9A00;
 }
 
 .arrow-icon {
@@ -106,6 +127,7 @@
 .card-icon
 {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .seo-audit-card-title
@@ -138,6 +160,7 @@
     border: 1px solid var(--Deactive-Card-Color, #E4E4E4);
     background: var(--white-color-aditya, #FFF);
     height: 100%;
+    padding: 32px;
 }
 .seo-audit-card:hover
 {
@@ -239,16 +262,7 @@ border: 1px solid var(--Deactive-Card-Color, #E4E4E4);
     font-style: normal;
     font-weight: 700;
     line-height: 46px; /* 127.778% */
-}
-
-.seo-description
-{
-    color: rgba(0, 0, 0, 0.75);
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    margin-bottom: 16px;
 }
 .img-light
 {
@@ -282,6 +296,7 @@ border: 1px solid var(--Deactive-Card-Color, #E4E4E4);
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
+   margin-bottom: 42px;
 }
 
 .proposal-btn
@@ -339,7 +354,7 @@ border: 0;
         width: 100%;
         height: auto;
     }
-    .seo-image-col,
+    .seo-image,
     .seo-content-col {
         width: 100%; /* Make both columns full width */
         margin-bottom: 20px; /* Add some space between the columns */
@@ -425,6 +440,12 @@ border: 0;
     .seo-image-col img
     {
         margin-top: 20px;
+    }
+    .seo-image-col
+    {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
     }
     .seo-content-col, .seo-image-col {
         width: 100%; 
