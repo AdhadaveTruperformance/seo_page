@@ -58,25 +58,30 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-}
-.custom-btn {
+}.custom-btn {
     width: 201px;
-    border: 1px solid transparent; /* Add transparent border initially */
+    height: 66px;
     border-radius: 40px;
     background-color: #FF9A00;
     color: #FFF;
     text-align: center;
     font-feature-settings: 'liga' off, 'clig' off;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 22px;
-    display: flex;
+    line-height: 18px;
+    outline: 0;
+    border: 0;
     padding: 12px 24px;
-    gap: 8px;
     margin-top: 28px;
-    box-sizing: border-box; /* Ensures consistent sizing */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Space between text and arrow icon */
+    cursor: pointer;
+    position: relative;
 }
+
 li::marker {
     font-size: 0.75em; /* Adjust size to make it smaller */
     color: #333; /* Optional: Change color if needed */
@@ -130,6 +135,7 @@ li::marker {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 60px;
 }
 
 .card-icon img
