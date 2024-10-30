@@ -6,7 +6,7 @@
 }
 
 
-.header-content {
+.hero-section {
     background-image: url(images/SEO.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    
+ 
 }
 
 .text-heading-banner {
@@ -25,7 +25,7 @@
     justify-content: center;
     align-items: center;
     gap: 32px;
-    flex-shrink: 0;
+    padding: 169px 201px 106px 200px;
 }
 
 .text-heading-banner h1 {
