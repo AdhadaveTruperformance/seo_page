@@ -4,15 +4,27 @@
     margin: 0 auto;
     padding: 0 15px;
 }
-.seo-image-col img
+
+.seo-image-col
 {
-    width: 596px;
-    height: 684px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 8px;
+    height: 100%;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 24px;
 }
+
+.seo-content-col
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .seo-heading {
     color: #000;
     font-feature-settings: 'liga' off, 'clig' off;
@@ -48,6 +60,7 @@
     line-height: 30px;
 }
 .custom-btn {
+    width: 201px;
     border: 1px solid transparent; /* Add transparent border initially */
     border-radius: 40px;
     background-color: #FF9A00;
@@ -357,12 +370,12 @@ border: 0;
     .seo-row {
         flex-direction: column; /* Stack columns vertically */
     }
-    .seo-image img {
+    .seo-image-col {
         margin-top: 20px;
         width: 100%;
         height: auto;
     }
-    .seo-image,
+    .seo-image-col,
     .seo-content-col {
         width: 100%; /* Make both columns full width */
         margin-bottom: 20px; /* Add some space between the columns */
